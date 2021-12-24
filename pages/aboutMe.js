@@ -1,12 +1,14 @@
 import Layout from './../components/layout/Layout'
 import styles from '../styles/Home.module.css'
 
-export default function Home() {
+const AboutMe = () => {
   return (
     <div>
       <Layout>
-        <h1 className={styles.header}>Hello World</h1>
+        <h1 className={styles.header}>Sobre mí</h1>
       </Layout>
     </div>
   )
 }
+
+export default AboutMe;
